@@ -14,3 +14,7 @@ RUN gem install --no-ri --no-rdoc bundler \
 RUN useradd -u 1000 vagrant
 
 USER vagrant
+
+RUN git clone https://github.com/garethr/puppet-module-skeleton /tmp/skeleton \
+ && cd /tmp/skeleton \
+ && ./install.sh
