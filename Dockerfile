@@ -1,4 +1,5 @@
 FROM centos:7.3.1611
+MAINTAINER Toni Schmidbauer <toni@stderr.at>
 
 COPY puppetlabs-release-el-7.noarch.rpm /tmp/
 
