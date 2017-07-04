@@ -8,6 +8,7 @@ gem 'rspec-puppet-facts', '~> 1.7'
 gem 'simplecov', '~> 0.12'
 gem 'simplecov-console', '~> 0.3'
 gem 'metadata-json-lint', '~> 1.2'
+gem 'rubocop', '~> 0.49'
 
 gem "puppet-lint-absolute_classname-check"
 gem "puppet-lint-leading_zero-check"
